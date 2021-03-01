@@ -16,7 +16,7 @@ cask "mailtrackerblocker" do
 
   def caveats
     <<~EOS
-      ℹ️  To enable and use:
+      ℹ️  To enable and use (you'll need to do this again after updating):
         1. Open Mail, goto Preferences > General > Manage Plug-ins... > 
            check "MailTrackerBlocker.mailbundle" > Apply and Restart Mail.
         2. Tap on the ⓧ  button to find out what was blocked.
