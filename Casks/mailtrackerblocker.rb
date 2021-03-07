@@ -4,7 +4,6 @@ cask "mailtrackerblocker" do
 
   url "https://github.com/apparition47/MailTrackerBlocker/releases/download/#{version}/MailTrackerBlocker.pkg",
       verified: "github.com/apparition47/MailTrackerBlocker/"
-  appcast "https://github.com/apparition47/MailTrackerBlocker/releases.atom"
   name "MailTrackerBlocker"
   desc "Email tracker, read receipt and spy pixel blocker plugin for Apple Mail"
   homepage "https://apparition47.github.io/MailTrackerBlocker/"
