@@ -8,7 +8,7 @@ cask "mailtrackerblocker" do
   desc "Email tracker, read receipt and spy pixel blocker plugin for Apple Mail"
   homepage "https://apparition47.github.io/MailTrackerBlocker/"
 
-  deprecate! date: "2024-04-22", because: :moved_to_mas
+  no_autobump! because: :bumped_by_upstream
   
   auto_updates true
   depends_on macos: [
